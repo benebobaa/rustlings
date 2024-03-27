@@ -3,8 +3,12 @@
 // Execute `rustlings hint functions1` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 fn main() {
-    call_me();
+    call_me(32);
+}
+
+
+fn call_me(num:i32){
+    println!("ini angka {}",num);
 }
